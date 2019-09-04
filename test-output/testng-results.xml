@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="19449" started-at="2019-08-18T16:11:43Z" finished-at="2019-08-18T16:12:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="19449" started-at="2019-08-18T16:11:43Z" finished-at="2019-08-18T16:12:03Z">
+      <class name="Test.TestSuite_ContractManagement">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:Test.TestSuite_ContractManagement@396a51ab]" name="setUp" is-config="true" duration-ms="7151" started-at="2019-08-18T11:11:43Z" finished-at="2019-08-18T11:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="TestCase1_verifyHomepageTitle()[pri:0, instance:Test.TestSuite_ContractManagement@396a51ab]" name="TestCase1_verifyHomepageTitle" duration-ms="32" started-at="2019-08-18T11:11:50Z" finished-at="2019-08-18T11:11:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1_verifyHomepageTitle -->
+        <test-method status="PASS" signature="TestCase1_verifySearch()[pri:0, instance:Test.TestSuite_ContractManagement@396a51ab]" name="TestCase1_verifySearch" duration-ms="5211" started-at="2019-08-18T11:11:50Z" finished-at="2019-08-18T11:11:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase1_verifySearch -->
+        <test-method status="PASS" signature="TestCase2_verifyDemoPageTitle()[pri:0, instance:Test.TestSuite_ContractManagement@396a51ab]" name="TestCase2_verifyDemoPageTitle" duration-ms="5577" started-at="2019-08-18T11:11:56Z" finished-at="2019-08-18T11:12:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCase2_verifyDemoPageTitle -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:Test.TestSuite_ContractManagement@396a51ab]" name="closeDriver" is-config="true" duration-ms="1462" started-at="2019-08-18T11:12:01Z" finished-at="2019-08-18T11:12:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- Test.TestSuite_ContractManagement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

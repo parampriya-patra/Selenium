@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)" parallel="instances">
+    <classes>
+      <class name="Test.TestSuite_ContractManagement">
+        <methods>
+          <include name="TestCase2_verifyDemoPageTitle"/>
+          <include name="setUp"/>
+          <include name="closeDriver"/>
+        </methods>
+      </class> <!-- Test.TestSuite_ContractManagement -->
+      <class name="Test.TestSuite_ResourceLibrary">
+        <methods>
+          <include name="closeDriver"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- Test.TestSuite_ResourceLibrary -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
